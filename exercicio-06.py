@@ -1,5 +1,5 @@
 def imprime_max(n1, n2, n3):
-    return print(max(n1, n2, n3))
+    print(max(n1, n2, n3))
 
 
 imprime_max(3, 7, 10)

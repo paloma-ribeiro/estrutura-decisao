@@ -1,9 +1,10 @@
 def verifica_sexo(letra):
     if letra.upper() == 'F':
-        return print('F - Feminino')
-    if letra.upper() == 'M':
-        return print('M - Masculino')
-    return print('Sexo Inválido')
+        print('F - Feminino')
+    elif letra.upper() == 'M':
+        print('M - Masculino')
+    else:
+        print('Sexo Inválido')
 
 
 verifica_sexo('F')

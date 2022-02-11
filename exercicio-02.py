@@ -1,7 +1,8 @@
 def verifica_valor(num):
     if num < 0:
-        return print('Valor Negativo!')
-    return print('Valor Positivo!')
+        print('Valor Negativo!')
+    else:
+        print('Valor Positivo!')
 
 
 verifica_valor(-7)

@@ -2,9 +2,9 @@ def calcula_media(nota1, nota2):
     notas = (nota1, nota2)
     media = sum(notas) / len(notas)
     if 7 <= media < 10:
-        return print('Aprovado')
-    if media < 7:
-        return print('Reprovado')
+        print('Aprovado')
+    elif media < 7:
+        print('Reprovado')
     elif media == 10:
         return print('Aprovado com Distinção')
 

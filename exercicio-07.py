@@ -1,5 +1,5 @@
 def imprime_max_min(n1, n2, n3):
-    return print('Max:', max(n1, n2, n3), 'Min:', min(n1, n2, n3))
+    print('Max:', max(n1, n2, n3), 'Min:', min(n1, n2, n3))
 
 
 imprime_max_min(5, 8, 9)

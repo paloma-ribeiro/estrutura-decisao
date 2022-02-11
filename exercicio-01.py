@@ -1,5 +1,5 @@
 def imprime_max(num1, num2):
-    return print(f'O maior número é:', max(num1, num2))
+    print('O maior número é:', max(num1, num2))
 
 
 imprime_max(3, 4)

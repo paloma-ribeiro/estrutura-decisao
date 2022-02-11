@@ -1,8 +1,9 @@
 def verifica_letra(letra):
     vogal = ('a', 'e', 'i', 'o', 'u')
     if letra in vogal:
-        return print('Vogal')
-    return print('Consoante')
+        print('Vogal')
+    else:
+        print('Consoante')
 
 
 verifica_letra('a')
